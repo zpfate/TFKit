@@ -28,9 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) CGFloat tf_centerY;
 
-
+// 移除所有子视图
 - (void)tf_removeAllSubviews;
 
+// 持有当前View的Controller
 - (UIViewController *)tf_getCurrentViewController;
 
 @end

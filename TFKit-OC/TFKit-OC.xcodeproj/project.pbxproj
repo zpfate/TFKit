@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1CF39122BA258A005769D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF39022BA258A005769D4 /* AppDelegate.m */; };
+		5B1CF39422BA258A005769D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF39322BA258A005769D4 /* ViewController.m */; };
+		5B1CF39722BA258A005769D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF39522BA258A005769D4 /* Main.storyboard */; };
+		5B1CF39922BA258A005769D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF39822BA258A005769D4 /* Assets.xcassets */; };
+		5B1CF39C22BA258A005769D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF39A22BA258A005769D4 /* LaunchScreen.storyboard */; };
+		5B1CF39F22BA258A005769D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF39E22BA258A005769D4 /* main.m */; };
+		5B1CF3CB22BA2687005769D4 /* UIView+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3BE22BA2687005769D4 /* UIView+TFKit.m */; };
+		5B1CF3CD22BA2687005769D4 /* UIDevice+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3C122BA2687005769D4 /* UIDevice+TFKit.m */; };
+		5B1CF3CE22BA2687005769D4 /* NSString+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3C522BA2687005769D4 /* NSString+TFKit.m */; };
+		5B1CF3CF22BA2687005769D4 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3C722BA2687005769D4 /* UIView+Toast.m */; };
+		5B1CF3D022BA2687005769D4 /* TF_NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3C922BA2687005769D4 /* TF_NavigationViewController.m */; };
+		5B1CF3D722BA272B005769D4 /* NSData+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3D622BA272B005769D4 /* NSData+TFKit.m */; };
+		5B1CF3DA22BA28FC005769D4 /* TF_TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3D922BA28FC005769D4 /* TF_TextView.m */; };
+		5B1CF3DD22BA2908005769D4 /* TF_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3DB22BA2908005769D4 /* TF_Model.m */; };
+		5B1CF3E022BA2944005769D4 /* TF_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3DF22BA2944005769D4 /* TF_View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B1CF38C22BA258A005769D4 /* TFKit-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFKit-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1CF38F22BA258A005769D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B1CF39022BA258A005769D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B1CF39222BA258A005769D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B1CF39322BA258A005769D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B1CF39622BA258A005769D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B1CF39822BA258A005769D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B1CF39B22BA258A005769D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B1CF39D22BA258A005769D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1CF39E22BA258A005769D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B1CF3BE22BA2687005769D4 /* UIView+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFKit.m"; sourceTree = "<group>"; };
+		5B1CF3C022BA2687005769D4 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		5B1CF3C122BA2687005769D4 /* UIDevice+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TFKit.m"; sourceTree = "<group>"; };
+		5B1CF3C222BA2687005769D4 /* NSString+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TFKit.h"; sourceTree = "<group>"; };
+		5B1CF3C422BA2687005769D4 /* UIView+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFKit.h"; sourceTree = "<group>"; };
+		5B1CF3C522BA2687005769D4 /* NSString+TFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TFKit.m"; sourceTree = "<group>"; };
+		5B1CF3C622BA2687005769D4 /* UIDevice+TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TFKit.h"; sourceTree = "<group>"; };
+		5B1CF3C722BA2687005769D4 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		5B1CF3C922BA2687005769D4 /* TF_NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_NavigationViewController.m; sourceTree = "<group>"; };
+		5B1CF3CA22BA2687005769D4 /* TF_NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_NavigationViewController.h; sourceTree = "<group>"; };
+		5B1CF3D122BA269C005769D4 /* TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFKit.h; sourceTree = "<group>"; };
+		5B1CF3D522BA272B005769D4 /* NSData+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+TFKit.h"; sourceTree = "<group>"; };
+		5B1CF3D622BA272B005769D4 /* NSData+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+TFKit.m"; sourceTree = "<group>"; };
+		5B1CF3D822BA28FC005769D4 /* TF_TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_TextView.h; sourceTree = "<group>"; };
+		5B1CF3D922BA28FC005769D4 /* TF_TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_TextView.m; sourceTree = "<group>"; };
+		5B1CF3DB22BA2908005769D4 /* TF_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_Model.m; sourceTree = "<group>"; };
+		5B1CF3DC22BA2908005769D4 /* TF_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_Model.h; sourceTree = "<group>"; };
+		5B1CF3DE22BA2944005769D4 /* TF_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_View.h; sourceTree = "<group>"; };
+		5B1CF3DF22BA2944005769D4 /* TF_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1CF38922BA258A005769D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1CF38322BA258A005769D4 = {
+			isa = PBXGroup;
+			children = (
+				5B1CF38E22BA258A005769D4 /* TFKit-OC */,
+				5B1CF38D22BA258A005769D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1CF38D22BA258A005769D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF38C22BA258A005769D4 /* TFKit-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1CF38E22BA258A005769D4 /* TFKit-OC */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF38F22BA258A005769D4 /* AppDelegate.h */,
+				5B1CF39022BA258A005769D4 /* AppDelegate.m */,
+				5B1CF39222BA258A005769D4 /* ViewController.h */,
+				5B1CF39322BA258A005769D4 /* ViewController.m */,
+				5B1CF3BB22BA2687005769D4 /* TFKit */,
+				5B1CF39522BA258A005769D4 /* Main.storyboard */,
+				5B1CF39822BA258A005769D4 /* Assets.xcassets */,
+				5B1CF39A22BA258A005769D4 /* LaunchScreen.storyboard */,
+				5B1CF39D22BA258A005769D4 /* Info.plist */,
+				5B1CF39E22BA258A005769D4 /* main.m */,
+			);
+			path = "TFKit-OC";
+			sourceTree = "<group>";
+		};
+		5B1CF3BB22BA2687005769D4 /* TFKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF3D122BA269C005769D4 /* TFKit.h */,
+				5B1CF3BD22BA2687005769D4 /* TF_Category */,
+				5B1CF3C822BA2687005769D4 /* TF_BaseClass */,
+			);
+			path = TFKit;
+			sourceTree = "<group>";
+		};
+		5B1CF3BD22BA2687005769D4 /* TF_Category */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF3D522BA272B005769D4 /* NSData+TFKit.h */,
+				5B1CF3D622BA272B005769D4 /* NSData+TFKit.m */,
+				5B1CF3C222BA2687005769D4 /* NSString+TFKit.h */,
+				5B1CF3C522BA2687005769D4 /* NSString+TFKit.m */,
+				5B1CF3C622BA2687005769D4 /* UIDevice+TFKit.h */,
+				5B1CF3C122BA2687005769D4 /* UIDevice+TFKit.m */,
+				5B1CF3C422BA2687005769D4 /* UIView+TFKit.h */,
+				5B1CF3BE22BA2687005769D4 /* UIView+TFKit.m */,
+				5B1CF3C022BA2687005769D4 /* UIView+Toast.h */,
+				5B1CF3C722BA2687005769D4 /* UIView+Toast.m */,
+			);
+			path = TF_Category;
+			sourceTree = "<group>";
+		};
+		5B1CF3C822BA2687005769D4 /* TF_BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF3DC22BA2908005769D4 /* TF_Model.h */,
+				5B1CF3DB22BA2908005769D4 /* TF_Model.m */,
+				5B1CF3DE22BA2944005769D4 /* TF_View.h */,
+				5B1CF3DF22BA2944005769D4 /* TF_View.m */,
+				5B1CF3D822BA28FC005769D4 /* TF_TextView.h */,
+				5B1CF3D922BA28FC005769D4 /* TF_TextView.m */,
+				5B1CF3C922BA2687005769D4 /* TF_NavigationViewController.m */,
+				5B1CF3CA22BA2687005769D4 /* TF_NavigationViewController.h */,
+			);
+			path = TF_BaseClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1CF38B22BA258A005769D4 /* TFKit-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1CF3A222BA258A005769D4 /* Build configuration list for PBXNativeTarget "TFKit-OC" */;
+			buildPhases = (
+				5B1CF38822BA258A005769D4 /* Sources */,
+				5B1CF38922BA258A005769D4 /* Frameworks */,
+				5B1CF38A22BA258A005769D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TFKit-OC";
+			productName = "TFKit-OC";
+			productReference = 5B1CF38C22BA258A005769D4 /* TFKit-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1CF38422BA258A005769D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TwistedFate;
+				TargetAttributes = {
+					5B1CF38B22BA258A005769D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B1CF38722BA258A005769D4 /* Build configuration list for PBXProject "TFKit-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B1CF38322BA258A005769D4;
+			productRefGroup = 5B1CF38D22BA258A005769D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1CF38B22BA258A005769D4 /* TFKit-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1CF38A22BA258A005769D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1CF39C22BA258A005769D4 /* LaunchScreen.storyboard in Resources */,
+				5B1CF39922BA258A005769D4 /* Assets.xcassets in Resources */,
+				5B1CF39722BA258A005769D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1CF38822BA258A005769D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1CF3CF22BA2687005769D4 /* UIView+Toast.m in Sources */,
+				5B1CF3CD22BA2687005769D4 /* UIDevice+TFKit.m in Sources */,
+				5B1CF3CE22BA2687005769D4 /* NSString+TFKit.m in Sources */,
+				5B1CF39422BA258A005769D4 /* ViewController.m in Sources */,
+				5B1CF3E022BA2944005769D4 /* TF_View.m in Sources */,
+				5B1CF3DD22BA2908005769D4 /* TF_Model.m in Sources */,
+				5B1CF3D022BA2687005769D4 /* TF_NavigationViewController.m in Sources */,
+				5B1CF3D722BA272B005769D4 /* NSData+TFKit.m in Sources */,
+				5B1CF39F22BA258A005769D4 /* main.m in Sources */,
+				5B1CF39122BA258A005769D4 /* AppDelegate.m in Sources */,
+				5B1CF3CB22BA2687005769D4 /* UIView+TFKit.m in Sources */,
+				5B1CF3DA22BA28FC005769D4 /* TF_TextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B1CF39522BA258A005769D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1CF39622BA258A005769D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B1CF39A22BA258A005769D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1CF39B22BA258A005769D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1CF3A022BA258A005769D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B1CF3A122BA258A005769D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B1CF3A322BA258A005769D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83J8888V77;
+				INFOPLIST_FILE = "TFKit-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TwistedFate.www.TFKit-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B1CF3A422BA258A005769D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83J8888V77;
+				INFOPLIST_FILE = "TFKit-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TwistedFate.www.TFKit-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1CF38722BA258A005769D4 /* Build configuration list for PBXProject "TFKit-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1CF3A022BA258A005769D4 /* Debug */,
+				5B1CF3A122BA258A005769D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1CF3A222BA258A005769D4 /* Build configuration list for PBXNativeTarget "TFKit-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1CF3A322BA258A005769D4 /* Debug */,
+				5B1CF3A422BA258A005769D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1CF38422BA258A005769D4 /* Project object */;
+}
