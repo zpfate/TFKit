@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TFKit-OC"
-  s.version      = "0.0.2"
+  s.version      = "0.0.5"
   s.summary      = "iOS开发中一些常用的基类与类目工具."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TFKit-OC/TFKit", "**/*.{h,m}"
+  s.source_files  = "TFKit-OC/TFKit-OC/TFKit", "**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
