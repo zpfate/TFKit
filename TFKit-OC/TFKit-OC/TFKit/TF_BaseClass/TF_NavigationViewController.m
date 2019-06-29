@@ -14,10 +14,23 @@
 
 @implementation TF_NavigationViewController
 
+- (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
+    
+    if (self = [super initWithRootViewController:rootViewController]) {
+        
+    }
+    return self;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view.
 }
+
+
 
 - (BOOL)shouldAutorotate {
     return self.visibleViewController.shouldAutorotate;

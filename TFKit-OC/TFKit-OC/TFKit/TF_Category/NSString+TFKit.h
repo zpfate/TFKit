@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (TFKit)
 
-+ (NSString *)stringFromDate:(NSDate *)date;
++ (NSString *)tf_stringFromDate:(NSDate *)date;
 
 - (NSString *)tf_MD5String;
 

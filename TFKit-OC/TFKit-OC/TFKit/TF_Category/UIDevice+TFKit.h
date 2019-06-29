@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIDevice (TFKit)
 
-+ (BOOL)isiPhoneX;
++ (BOOL)tf_isiPhoneX;
 
 /*
  *  @brief  强制设置屏幕方向

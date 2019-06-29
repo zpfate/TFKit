@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1CC66922C6EF07005B528B /* UINavigationController+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CC66822C6EF07005B528B /* UINavigationController+TFKit.m */; };
+		5B1CC66C22C6F222005B528B /* UIColor+TFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CC66B22C6F222005B528B /* UIColor+TFKit.m */; };
 		5B1CF39122BA258A005769D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF39022BA258A005769D4 /* AppDelegate.m */; };
 		5B1CF39422BA258A005769D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF39322BA258A005769D4 /* ViewController.m */; };
 		5B1CF39722BA258A005769D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF39522BA258A005769D4 /* Main.storyboard */; };
@@ -25,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1CC66722C6EF07005B528B /* UINavigationController+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TFKit.h"; sourceTree = "<group>"; };
+		5B1CC66822C6EF07005B528B /* UINavigationController+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TFKit.m"; sourceTree = "<group>"; };
+		5B1CC66A22C6F222005B528B /* UIColor+TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TFKit.h"; sourceTree = "<group>"; };
+		5B1CC66B22C6F222005B528B /* UIColor+TFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TFKit.m"; sourceTree = "<group>"; };
 		5B1CF38C22BA258A005769D4 /* TFKit-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFKit-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1CF38F22BA258A005769D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B1CF39022BA258A005769D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,12 +123,16 @@
 				5B1CF3D622BA272B005769D4 /* NSData+TFKit.m */,
 				5B1CF3C222BA2687005769D4 /* NSString+TFKit.h */,
 				5B1CF3C522BA2687005769D4 /* NSString+TFKit.m */,
+				5B1CC66A22C6F222005B528B /* UIColor+TFKit.h */,
+				5B1CC66B22C6F222005B528B /* UIColor+TFKit.m */,
 				5B1CF3C622BA2687005769D4 /* UIDevice+TFKit.h */,
 				5B1CF3C122BA2687005769D4 /* UIDevice+TFKit.m */,
 				5B1CF3C422BA2687005769D4 /* UIView+TFKit.h */,
 				5B1CF3BE22BA2687005769D4 /* UIView+TFKit.m */,
 				5B1CF3C022BA2687005769D4 /* UIView+Toast.h */,
 				5B1CF3C722BA2687005769D4 /* UIView+Toast.m */,
+				5B1CC66722C6EF07005B528B /* UINavigationController+TFKit.h */,
+				5B1CC66822C6EF07005B528B /* UINavigationController+TFKit.m */,
 			);
 			path = TF_Category;
 			sourceTree = "<group>";
@@ -136,8 +146,8 @@
 				5B1CF3DF22BA2944005769D4 /* TF_View.m */,
 				5B1CF3D822BA28FC005769D4 /* TF_TextView.h */,
 				5B1CF3D922BA28FC005769D4 /* TF_TextView.m */,
-				5B1CF3C922BA2687005769D4 /* TF_NavigationViewController.m */,
 				5B1CF3CA22BA2687005769D4 /* TF_NavigationViewController.h */,
+				5B1CF3C922BA2687005769D4 /* TF_NavigationViewController.m */,
 			);
 			path = TF_BaseClass;
 			sourceTree = "<group>";
@@ -213,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1CF3CF22BA2687005769D4 /* UIView+Toast.m in Sources */,
+				5B1CC66922C6EF07005B528B /* UINavigationController+TFKit.m in Sources */,
 				5B1CF3CD22BA2687005769D4 /* UIDevice+TFKit.m in Sources */,
 				5B1CF3CE22BA2687005769D4 /* NSString+TFKit.m in Sources */,
 				5B1CF39422BA258A005769D4 /* ViewController.m in Sources */,
@@ -221,6 +232,7 @@
 				5B1CF3D022BA2687005769D4 /* TF_NavigationViewController.m in Sources */,
 				5B1CF3D722BA272B005769D4 /* NSData+TFKit.m in Sources */,
 				5B1CF39F22BA258A005769D4 /* main.m in Sources */,
+				5B1CC66C22C6F222005B528B /* UIColor+TFKit.m in Sources */,
 				5B1CF39122BA258A005769D4 /* AppDelegate.m in Sources */,
 				5B1CF3CB22BA2687005769D4 /* UIView+TFKit.m in Sources */,
 				5B1CF3DA22BA28FC005769D4 /* TF_TextView.m in Sources */,

@@ -136,10 +136,10 @@ static const NSInteger kStaticPrfMinimumLength = 96;
     
     // 需要prf算法得出的长度
     while (prfData.length < kStaticPrfMinimumLength) {
-        AnData = [self hmacSHA256WithSecret:secret content:AnData];
+        AnData = [self tf_hmacSHA256WithSecret:secret content:AnData];
         mutableData = [NSMutableData dataWithData:AnData];
         [mutableData appendData:seed];
-        NSData *hmacData = [self hmacSHA256WithSecret:secret content:mutableData];
+        NSData *hmacData = [self tf_hmacSHA256WithSecret:secret content:mutableData];
         [prfData appendData:hmacData];
     }
     return prfData;
@@ -150,7 +150,7 @@ static const NSInteger kStaticPrfMinimumLength = 96;
 @implementation NSData (HMAC)
 
 // hmac sha256算法
-+ (NSData *)hmacSHA256WithSecret:(NSData *)secret content:(NSData *)content {
++ (NSData *)tf_hmacSHA256WithSecret:(NSData *)secret content:(NSData *)content {
     
     unsigned char cHMAC[CC_SHA256_DIGEST_LENGTH];
     CCHmac(kCCHmacAlgSHA256, secret.bytes, secret.length, content.bytes, content.length, cHMAC);
@@ -164,7 +164,7 @@ static const NSInteger kStaticPrfMinimumLength = 96;
 
 
 // SHA256签名
-+ (NSData *)SHA256:(NSData *)encryptData {
++ (NSData *)tf_SHA256:(NSData *)encryptData {
     
     uint8_t digest[CC_SHA256_DIGEST_LENGTH] = {0};
     CC_SHA256(encryptData.bytes, (CC_LONG)encryptData.length, digest);

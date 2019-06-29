@@ -36,9 +36,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSData (HMAC)
 
-+ (NSData *)hmacSHA256WithSecret:(NSData *)secret content:(NSData *)content;
++ (NSData *)tf_hmacSHA256WithSecret:(NSData *)secret content:(NSData *)content;
 
-+ (NSData *)SHA256:(NSData *)encryptData;
++ (NSData *)tf_SHA256:(NSData *)encryptData;
 
 @end
 

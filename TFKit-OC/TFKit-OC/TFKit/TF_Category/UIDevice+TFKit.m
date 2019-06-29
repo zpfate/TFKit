@@ -10,7 +10,7 @@
 
 @implementation UIDevice (TFKit)
 
-+ (BOOL)isiPhoneX {
++ (BOOL)tf_isiPhoneX {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         // 获取屏幕的宽度和高度，取较大一方判断是否为 812.0 或 896.0
         CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;

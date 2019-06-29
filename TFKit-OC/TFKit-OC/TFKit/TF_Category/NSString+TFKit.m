@@ -15,7 +15,7 @@
 
 static NSDateFormatter *dateFormatter = nil;
 
-+ (NSString *)stringFromDate:(NSDate *)date {
++ (NSString *)tf_stringFromDate:(NSDate *)date {
     
     if (dateFormatter == nil) {
         dateFormatter = [[NSDateFormatter alloc] init];

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TFKit-OC"
-  s.version      = "0.0.5"
+  s.version      = "0.0.8"
   s.summary      = "iOS开发中一些常用的基类与类目工具."
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ZpFate/TFKit.git", :tag => "#{s.version}" }
 
-
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -91,11 +90,20 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TFKit-OC/TFKit-OC/TFKit", "**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "TFKit-OC/TFKit-OC/TFKit/*"
+  
+  s.subspec 'TF_Category' do |ss|
+  ss.source_files = 'TFKit-OC/TFKit-OC/TFKit/TF_Category/*'
+  end
+
+  s.subspec 'TF_BaseClass' do |ss|
+  ss.source_files = 'TFKit-OC/TFKit-OC/TFKit/TF_BaseClass/*'
+  end
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
+ 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
