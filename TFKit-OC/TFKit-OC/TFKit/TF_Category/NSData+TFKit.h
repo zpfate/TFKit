@@ -24,7 +24,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSData *)tf_decryptAES128WithKeyData:(NSData *)keyData ivData:(NSData *)ivData;
 
-
 @end
 
 @interface NSData (PRF)

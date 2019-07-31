@@ -24,6 +24,7 @@
 		5B1CF3DA22BA28FC005769D4 /* TF_TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3D922BA28FC005769D4 /* TF_TextView.m */; };
 		5B1CF3DD22BA2908005769D4 /* TF_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3DB22BA2908005769D4 /* TF_Model.m */; };
 		5B1CF3E022BA2944005769D4 /* TF_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF3DF22BA2944005769D4 /* TF_View.m */; };
+		5B8E3AD322F1282B00405E84 /* TF_FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E3AD122F1282B00405E84 /* TF_FileUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,9 @@
 		5B1CF3DC22BA2908005769D4 /* TF_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_Model.h; sourceTree = "<group>"; };
 		5B1CF3DE22BA2944005769D4 /* TF_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_View.h; sourceTree = "<group>"; };
 		5B1CF3DF22BA2944005769D4 /* TF_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_View.m; sourceTree = "<group>"; };
+		5B8E3AD122F1282B00405E84 /* TF_FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_FileUtils.m; sourceTree = "<group>"; };
+		5B8E3AD222F1282B00405E84 /* TF_FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_FileUtils.h; sourceTree = "<group>"; };
+		5B8E3AD422F12F1F00405E84 /* TF_ConfigHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TF_ConfigHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				5B1CF3D122BA269C005769D4 /* TFKit.h */,
+				5B8E3AD422F12F1F00405E84 /* TF_ConfigHeader.h */,
+				5B8E3AD022F1281900405E84 /* TF_Utils */,
 				5B1CF3BD22BA2687005769D4 /* TF_Category */,
 				5B1CF3C822BA2687005769D4 /* TF_BaseClass */,
 			);
@@ -150,6 +156,15 @@
 				5B1CF3C922BA2687005769D4 /* TF_NavigationViewController.m */,
 			);
 			path = TF_BaseClass;
+			sourceTree = "<group>";
+		};
+		5B8E3AD022F1281900405E84 /* TF_Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B8E3AD222F1282B00405E84 /* TF_FileUtils.h */,
+				5B8E3AD122F1282B00405E84 /* TF_FileUtils.m */,
+			);
+			path = TF_Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +250,7 @@
 				5B1CC66C22C6F222005B528B /* UIColor+TFKit.m in Sources */,
 				5B1CF39122BA258A005769D4 /* AppDelegate.m in Sources */,
 				5B1CF3CB22BA2687005769D4 /* UIView+TFKit.m in Sources */,
+				5B8E3AD322F1282B00405E84 /* TF_FileUtils.m in Sources */,
 				5B1CF3DA22BA28FC005769D4 /* TF_TextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
